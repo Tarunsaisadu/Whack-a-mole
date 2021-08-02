@@ -1,0 +1,33 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 640px;
+  height: 640px;
+  margin-left: 250px;
+}
+.mole {
+  background-image: url(images/mole.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(228, 78, 19);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+body {
+  background-color: dimgray;
+  color: azure;
+}
