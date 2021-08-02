@@ -33,7 +33,7 @@ function randomSquare(){
 
   function moveMole(){
      let timerId=null;
-      timerId=setInterval(randomSquare,1000)
+      timerId=setInterval(randomSquare,800)
   }
 
   moveMole();
@@ -48,4 +48,4 @@ function randomSquare(){
       }
   }
 
-  let timerId = setInterval(countDown,1000);
+  let timerId = setInterval(countDown,800);
